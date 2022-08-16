@@ -1,0 +1,12 @@
+print("Welcome to my programing world")
+print("Click the link provided in description to view my codes")
+viewer_reply = input("Did you like my profile website : ")
+viewer_reply = viewer_reply.upper()
+viewer_reply = viewer_reply.lower()
+if viewer_reply == "yes" :
+    print("Do visit again")
+elif viewer_reply == "no" :
+    print("Please provide suggestions to improve my website in chatbox provided below. \nI'll surely work on it.")
+else :
+    print("Please enter valid reply")
+print("Thankyou for your time and response")

@@ -1,0 +1,19 @@
+def code_run_again() :
+    num1 = int(input("Enter num 1 : "))
+    num2 = int(input("Enter num 2 : ")) 
+    print("Do you want to continue ?")
+
+code_run_again()
+ans = input("Answer : ")
+ans = ans.upper()
+ans = ans.lower()
+if ans == 'no' :
+    print("Thankyou")
+else :
+    while ans == 'yes' :
+        code_run_again()
+        ans = input("Answer : ") 
+        ans = ans.upper()
+        ans = ans.lower()
+    else :
+        print("Enter a valid answer")
